@@ -1,0 +1,13 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #addBtn {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+
+    .progress-container {
+      margin-top: 20px;
+    }
