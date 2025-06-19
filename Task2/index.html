@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Lite - Product Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>FlipKart Lite</h1>
+  <div class="controls">
+    <input type="text" id="searchBar" placeholder="Search for products...">
+    <select id="priceFilter">
+      <option value="">Price Range</option>
+      <option value="0-1000">₹0 - ₹1000</option>
+      <option value="1000-5000">₹1000 - ₹5000</option>
+      <option value="5000-10000">₹5000 - ₹10000</option>
+      <option value="10000+">₹10000+</option>
+    </select>
+    <select id="sortOptions">
+      <option value="">Sort By</option>
+      <option value="lowToHigh">Price: Low to High</option>
+      <option value="highToLow">Price: High to Low</option>
+      <option value="nameAZ">Name: A-Z</option>
+      <option value="nameZA">Name: Z-A</option>
+    </select>
+    <button id="searchBtn">Search</button>
+  </div>
+</header>
+
+<main>
+  <div class="product-list" id="productList"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
